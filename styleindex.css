@@ -1,0 +1,108 @@
+body {
+    background-color: #4b684b;
+    font-family: Helmet;
+}
+
+hr {
+    max-width: 350px;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.logo p{
+    padding: 5px;
+    color: #efdeb4;
+}
+
+.logo img{
+    max-width: 200;
+    max-height: auto;
+}
+
+.headers {
+    color: #efdeb4;
+}
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+
+.destination textarea{
+    max-width: 240;
+    width: 240;
+    max-height: 100;
+    height: 50;
+    background-color: #efdeb4;
+    color: black;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.companions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}
+
+.companions textarea{
+    max-width: 240;
+    width: 240;
+    max-height: 120;
+    height: 80;
+    background-color: #efdeb4;
+    color: black;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.ToDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ToDos textarea{
+    max-width: 240;
+    width: 240;
+    max-height: 400;
+    height: 250;
+    background-color: #efdeb4;
+    color: black;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.send h1{
+    max-width: 200;
+    max-height: auto;
+}
